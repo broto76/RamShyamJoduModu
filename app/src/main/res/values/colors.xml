@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03E9D0</color>
+    <color name="colorPrimaryDark">#035024</color>
+    <color name="colorAccent">#B1B9EC</color>
+
+    <color name="fab_background">#B1B9EC</color>
+    <color name="fab_background_ripple">#818AF0</color>
+</resources>

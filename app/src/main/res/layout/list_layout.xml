@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/ll_list_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_background"
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Name: "
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="StudentName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Roll Number: "
+                />
+
+            <TextView
+                android:id="@+id/roll"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Roll"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Class: "
+                />
+
+            <TextView
+                android:id="@+id/className"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Class"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                />
+
+            <TextView
+                android:id="@+id/addr"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Addr"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

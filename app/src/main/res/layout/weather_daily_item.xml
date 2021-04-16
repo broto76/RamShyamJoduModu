@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_item_background"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Date: "
+            />
+
+        <TextView
+            android:id="@+id/tv_item_weather_date"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="DateValue"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Summary: "
+            />
+
+        <TextView
+            android:id="@+id/tv_item_weather_summary"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SummaryValue"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Max Temp: "
+            />
+
+        <TextView
+            android:id="@+id/tv_item_weather_maxTemp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="MaxValue"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Min Temp: "
+            />
+
+        <TextView
+            android:id="@+id/tv_item_weather_minTemp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="MinValue"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
